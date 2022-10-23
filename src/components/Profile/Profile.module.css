@@ -5,7 +5,7 @@
   flex-direction: column;
 }
 
-.img {
+.avatar {
   width: 120px;
   height: 120px;
   border-radius: 50%;
@@ -19,9 +19,17 @@
   padding: 15px 0;
 }
 
-.description {
+.tag,
+.location {
   font-size: 20px;
   font-weight: 500;
   color: #88919c;
   padding: 10px 0;
+}
+
+.stats {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }

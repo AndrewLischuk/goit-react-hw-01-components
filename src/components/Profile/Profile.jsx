@@ -8,12 +8,12 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
     <Container>
       <div className={styles.container}>
-        <img src={avatar} alt="User avatar" className={styles.img} />
+        <img src={avatar} alt="User avatar" className={styles.avatar} />
         <p className={styles.userName}>{username}</p>
-        <p className={styles.description}>@{tag}</p>
-        <p className={styles.description}>{location}</p>
+        <p className={styles.tag}>@{tag}</p>
+        <p className={styles.location}>{location}</p>
       </div>
-      <ul>
+      <ul className={styles.stats}>
         {entries.map(entry => {
           return (
             <ProfileStats

@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #88919c;
+  padding: 10px 0;
+}
+
+.quantity {
+  font-size: 24px;
+  font-weight: 700;
+  color: #0e141b;
+  /* padding: 15px 0; */
+}
