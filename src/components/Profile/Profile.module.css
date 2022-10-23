@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.userName {
+  font-size: 32px;
+  font-weight: 700;
+  color: #0e141b;
+  padding: 15px 0;
+}
+
+.description {
+  font-size: 20px;
+  font-weight: 500;
+  color: #88919c;
+  padding: 10px 0;
+}
