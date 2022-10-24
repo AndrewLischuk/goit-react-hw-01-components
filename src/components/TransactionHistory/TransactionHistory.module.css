@@ -1,0 +1,44 @@
+table {
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  width: 100%;
+  text-align: center;
+  display: inline-table;
+  flex-direction: column;
+}
+td,
+th {
+  border-right: 1px solid lightgray;
+}
+
+.transactionHistory {
+  box-shadow: 0px 5px 4px darkgrey;
+
+  background-color: grey;
+  margin: 15px 0;
+}
+
+.tableHead {
+  background-color: aqua;
+}
+
+.itemHead {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 20px 0;
+  color: whitesmoke;
+  width: 33.33%;
+}
+
+.tableBody {
+  /* display: flex; */
+  background-color: white;
+}
+
+.itemBody {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 20px 0;
+  color: darkslategrey;
+  width: 33.33%;
+}
